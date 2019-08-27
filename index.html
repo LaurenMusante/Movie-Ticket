@@ -10,22 +10,26 @@
     <h1>Pick a Movie</h1>
     <form class="ticketInfo" action="index.html" method="post">
       <select class="" name="movieType">
-        <option value="">Flubber</option>
-        <option value="">Jumanji</option>
-        <option value="">Mrs. Doubtfire</option>
-        <option value="">Good Will Hunting</option>
+        <option value="flubber">Flubber</option>
+        <option value="jumanji">Jumanji</option>
+        <option value="mrsdoubtfire">Mrs. Doubtfire</option>
+        <option value="good">Good Will Hunting</option>
       </select>
       <label for="">Enter your name:</label>
       <input type="text" id="name">
       <label for="">Enter your age:</label>
       <input type="number" id="age">
-      <label for="">Pick a date</label>
-      <input type="date" id="date">
+      <select class="" name="movieTime">
+        <option value="10am">10am</option>
+        <option value="2pm">2pm</option>
+        <option value="4pm">4pm</option>
+        <option value="9pm">9pm</option>
+      </select>
       <button type="submit" name="button">Submit</button>
     </form>
     <div class="ticketDetails">
       <p>Your Movie: <span class=yourMovie></span><p>
-      <p>Your Date: <span class=yourDate></span><p>
+      <p>Your Date: <span class=yourTime></span><p>
       <p>Your Age: <span class=yourAge></span><p>
       <p>Your Name: <span class=yourName></span><p>
       <p>Your Price: <span class=yourPrice></span><p>
