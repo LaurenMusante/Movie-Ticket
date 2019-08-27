@@ -8,11 +8,11 @@ function Ticket(movie, time, age, name){
 
 Ticket.prototype.agePrice = function() {
     if(parseInt(this.age) < 18) {
-      return 5;
+      return "$5";
     } else if(parseInt(this.age) >= 65) {
-      return 6;
+      return "$6";
     } else {
-      return 10;
+      return "$10";
     }
   }
 
