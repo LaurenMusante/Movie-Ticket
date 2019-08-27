@@ -4,14 +4,14 @@ function Ticket(movie, time, age){
   this.movie = movie;
   this.time = time;
   this.age = age;
-  this.name = {};
+  this.name = name;
   this.price = function(price){
     if (this.age <=18{
-      pay 5
+      return ("$5")
     } else if (this.age > 18 && < 65){
-      pay 10
+      return ("$10")
     } else {
-      pay 6
+      return ("$6")
     }
   }
 }
